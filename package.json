@@ -1,0 +1,19 @@
+{
+  "name": "nodegyptest",
+  "version": "1.0.0",
+  "description": "Test run for node gyp",
+  "license": "ISC",
+  "author": "DJ3125",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./out/index.js"
+  },
+  "dependencies": {
+    "node-gyp": "^11.2.0",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.17"
+  }
+}
